@@ -1,0 +1,12 @@
+POSTGRESQL_USERNAME: "jsport"
+POSTGRESQL_PASSWORD: "jsport"
+POSTGRESQL_HOST: "localhost"
+POSTGRESQL_PORT: "5432"
+POSTGRESQL_DB: "exercise_service"
+
+spring:
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
